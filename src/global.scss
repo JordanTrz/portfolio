@@ -1,0 +1,17 @@
+$mainColor:#000000;
+$width1: 768px;
+$HdLow: 1400px;
+$HdHigh: 2100px;
+
+@mixin mobile {
+    @media (max-width: #{$width1}) {
+        @content
+    }
+};
+
+@mixin screenHD {
+    @media (min-width: #{$HdLow}) and (max-width: #{$HdHigh}){
+        @content
+    }
+};
+
