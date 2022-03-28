@@ -171,12 +171,17 @@
 
     >a{
         position: absolute;
+        width: 50%;
         bottom: 10px;
-        left: 49%;
+        text-align: center;
 
         img{
-            width: 7%;
+            width: 6%;
             animation: arrowBlink 1s infinite alternate;
+
+            @include mobile{
+                width: 15%;
+            }
         }
 
         @keyframes arrowBlink {
