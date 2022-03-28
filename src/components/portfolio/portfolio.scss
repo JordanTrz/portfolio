@@ -114,6 +114,7 @@
                         border-radius: 8px;
                         background-color: white;
                         overflow: hidden;
+                        transition: all 0.5s ease-in-out;
 
                         @include mobile{
                             width: 30px;
@@ -141,7 +142,6 @@
 
                         &:hover{
                             transform: scale(1.1);
-                            transition: all 0.5s ease;
                             box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.75);
                             -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.75);
                             -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.75);
