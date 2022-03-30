@@ -15,7 +15,7 @@ export const frontEnd = [
     title: "Facebook clone",
     img: "https://res.cloudinary.com/dlhsturyl/image/upload/v1648058520/portfolio_photos/portfolio_facebook_clone_zwdieg.png",
     tech: ["https://miro.medium.com/proxy/1*VeM-5lsAtrrJ4jXH96h5kg.png"],
-    demo: "https://facebook-clone-jordantrz.vercel.app/",
+    demo: "https://hisocialapi.herokuapp.com/",
     repo: "https://github.com/JordanTrz/facebook_clone",
   },
   {
