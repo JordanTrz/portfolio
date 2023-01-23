@@ -30,7 +30,7 @@ const Intro = () => {
           </h3>
           <div className="bottom__download">
             <div className="download__left">
-              <a href="https://drive.google.com/file/d/1nyzfYTdacJ90W373oNg6B-ggUV8nhXRh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1cM0S-2Rd0_Ad12MwY2GXzQalnU1IuBo1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <div className="left__button">
                   <DownloadIcon/>
                   <div className="button__download">
