@@ -19,7 +19,8 @@ const Intro = () => {
       <div className="top">
         <div className="imgContainer">
           <img
-            src="https://raw.githubusercontent.com/JordanTrz/myself/main/1516869724668.jpeg"
+            // src="https://raw.githubusercontent.com/JordanTrz/myself/main/1516869724668.jpeg"
+            src="assets/character_JT.png"
             alt=""
           />
         </div>
