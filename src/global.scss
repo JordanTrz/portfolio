@@ -1,17 +1,18 @@
-$mainColor:#000000;
+$mainColor: #000000;
+$primaryColor: #909590;
+$secondaryColor: #474a48;
 $width1: 768px;
 $HdLow: 1400px;
 $HdHigh: 2100px;
 
 @mixin mobile {
-    @media (max-width: #{$width1}) {
-        @content
-    }
-};
+  @media (max-width: #{$width1}) {
+    @content;
+  }
+}
 
 @mixin screenHD {
-    @media (min-width: #{$HdLow}) and (max-width: #{$HdHigh}){
-        @content
-    }
-};
-
+  @media (min-width: #{$HdLow}) and (max-width: #{$HdHigh}) {
+    @content;
+  }
+}

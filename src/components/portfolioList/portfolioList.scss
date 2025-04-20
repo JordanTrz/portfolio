@@ -1,22 +1,23 @@
 @import "../../global.scss";
 
-.portfolioList{
-    font-size: 14px;
-    margin-right: 50px;
-    padding: 7px;
-    border-radius: 10px;
-    cursor: pointer;
+.portfolioList {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
 
-    @include mobile{
-        margin-right: 30px;;
-    }
+  @include screenHD {
+    font-size: 20px;
+  }
 
-    @include screenHD{
-        font-size: 20px;
-    }
+  &.active {
+    background-color: $mainColor;
+    color: white;
+  }
 
-    &.active{
-        background-color: $mainColor;
-        color: white;
-    }
+  &:not(.active):hover {
+    background-color: $primaryColor;
+    color: white;
+  }
 }
