@@ -1,38 +1,42 @@
 export const frontEnd = [
   {
     id: 1,
+    title: "Netflix clone",
+    img: "https://res.cloudinary.com/dlhsturyl/image/upload/v1648059928/portfolio_photos/portfolio_netflix_clone_y4neh5.png",
+    tech: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+    ],
+    demo: "https://buscador-peliculas-bay.vercel.app",
+    repo: "https://github.com/JordanTrz/buscador_peliculas",
+  },
+  {
+    id: 2,
+    title: "Shopping Cart",
+    img: "https://res.cloudinary.com/dlhsturyl/image/upload/v1648058520/portfolio_photos/portfolio_shopping_yyegit.png",
+    tech: [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png",
+    ],
+    demo: "https://ptfl-shop.vercel.app/",
+    repo: "https://github.com/JordanTrz/ptfl_shop",
+  },
+  {
+    id: 3,
     title: "Antawa, concecionario",
     img: "https://res.cloudinary.com/dlhsturyl/image/upload/v1648058521/portfolio_photos/portfolio_front_antawa_u98qlj.png",
     tech: [
       "https://miro.medium.com/proxy/1*VeM-5lsAtrrJ4jXH96h5kg.png",
-      "https://res.cloudinary.com/cloudinary-marketing/image/upload/w_320,h_223,c_pad,b_auto:predominant,fl_preserve_transparency//v1599098500/creative_source/Logo/Cloud%20Glyph/cloudinary_cloud_glyph_blue_png.jpg"
+      "https://res.cloudinary.com/cloudinary-marketing/image/upload/w_320,h_223,c_pad,b_auto:predominant,fl_preserve_transparency//v1599098500/creative_source/Logo/Cloud%20Glyph/cloudinary_cloud_glyph_blue_png.jpg",
     ],
     demo: "https://antawa.herokuapp.com/",
     repo: "https://github.com/JordanTrz/Antawa-proyecto",
   },
   {
-    id: 2,
+    id: 4,
     title: "Facebook clone",
     img: "https://res.cloudinary.com/dlhsturyl/image/upload/v1648058520/portfolio_photos/portfolio_facebook_clone_zwdieg.png",
     tech: ["https://miro.medium.com/proxy/1*VeM-5lsAtrrJ4jXH96h5kg.png"],
     demo: "https://hisocialapi.herokuapp.com/",
     repo: "https://github.com/JordanTrz/facebook_clone",
-  },
-  {
-    id: 3,
-    title: "Netflix clone",
-    img: "https://res.cloudinary.com/dlhsturyl/image/upload/v1648059928/portfolio_photos/portfolio_netflix_clone_y4neh5.png",
-    tech: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"],
-    demo: "https://netflix-clone-jordantrz.vercel.app/ ",
-    repo: "https://github.com/JordanTrz/netflix_clone",
-  },
-  {
-    id: 4,
-    title: "Shopping Cart",
-    img: "https://res.cloudinary.com/dlhsturyl/image/upload/v1648058520/portfolio_photos/portfolio_shopping_yyegit.png",
-    tech: ["https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"],
-    demo: "https://ptfl-shop.vercel.app/",
-    repo: "https://github.com/JordanTrz/ptfl_shop",
   },
 ];
 
