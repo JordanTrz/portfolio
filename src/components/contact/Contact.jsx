@@ -2,28 +2,27 @@ import "./contact.scss";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
-// init(process.env.USER_ID);
+
+const serviceId = process.env.REACT_APP_JMAIL_JS_SERVICE_ID;
+const templateId = process.env.REACT_APP_JMAIL_JS_TEMPLATE_ID;
+const publicKey = process.env.REACT_APP_JSMAIL_JS_PUBLIC_KEY;
 
 const Contact = () => {
   const [message, setMessage] = useState(false);
+  const [isSending, setIsSending] = useState(false);
   const form = useRef();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setMessage(true);
-    emailjs
-      .sendForm(
-        "service_w0ynyci",
-        "template_95jw5z4",
-        form.current,
-        "jCumFtzVBNeh4nubO"
-      )
-      .then(
-        (result) => {},
-        (error) => {
-          console.error(error.text);
-        }
-      );
+    setIsSending(true);
+    try {
+      await emailjs.sendForm(serviceId, templateId, form.current, publicKey);
+    } catch (error) {
+      console.error(error.text);
+    } finally {
+      setIsSending(false);
+    }
   };
 
   return (
@@ -37,7 +36,13 @@ const Contact = () => {
           <input type="text" name="user_name" placeholder="Name" />
           <input type="email" name="user_email" placeholder="Email" />
           <textarea name="message" placeholder="Message"></textarea>
-          <button type="submit">Send</button>
+          <button
+            type="submit"
+            disabled={isSending}
+            className={isSending ? "disabled" : ""}
+          >
+            Send
+          </button>
           {message && <span>Thanks! I'll contact you as soon as posible.</span>}
         </form>
       </div>
