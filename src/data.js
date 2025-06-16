@@ -99,7 +99,7 @@ export const projects = [
     id: 1,
     title: 'ChatGPT clone',
     text: 'A clone of the ChatGPT interface, built with React, express with nodeJS, MongoDB and Gemini. You can send texts and images. All the chats are saved in the database and you can see them in the history.',
-    img: 'https://res.cloudinary.com/dlhsturyl/image/upload/v1750068324/portfolio_photos/chatAI_wwvak3.png',
+    img: 'https://res.cloudinary.com/dlhsturyl/image/upload/w_800,f_auto/v1750068324/portfolio_photos/chatAI_wwvak3.png',
     tech: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
       // 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
@@ -114,7 +114,7 @@ export const projects = [
     id: 2,
     title: 'Netflix search clone',
     text: 'A movie search application that allows you to search by title and genre. Built with React, TypeScript and tanstack query. The states ares controlled with useContext and useReducer.',
-    img: 'https://res.cloudinary.com/dlhsturyl/image/upload/v1648059928/portfolio_photos/portfolio_netflix_clone_y4neh5.png',
+    img: 'https://res.cloudinary.com/dlhsturyl/image/upload/w_800,f_auto/v1648059928/portfolio_photos/portfolio_netflix_clone_y4neh5.png',
     tech: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
       'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
