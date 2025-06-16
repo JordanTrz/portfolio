@@ -4,7 +4,7 @@ export const frontEnd = [
     title: 'Netflix clone',
     img: 'https://res.cloudinary.com/dlhsturyl/image/upload/v1648059928/portfolio_photos/portfolio_netflix_clone_y4neh5.png',
     tech: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png',
     ],
     demo: 'https://buscador-peliculas-bay.vercel.app',
     repo: 'https://github.com/JordanTrz/buscador_peliculas',
@@ -14,7 +14,7 @@ export const frontEnd = [
     title: 'Shopping Cart',
     img: 'https://res.cloudinary.com/dlhsturyl/image/upload/v1648058520/portfolio_photos/portfolio_shopping_yyegit.png',
     tech: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png',
     ],
     demo: 'https://ptfl-shop.vercel.app/',
     repo: 'https://github.com/JordanTrz/ptfl_shop',
@@ -101,7 +101,7 @@ export const projects = [
     text: 'A clone of the ChatGPT interface, built with React, express with nodeJS, MongoDB and Gemini. You can send texts and images. All the chats are saved in the database and you can see them in the history.',
     img: 'https://res.cloudinary.com/dlhsturyl/image/upload/w_800,f_auto/v1750068324/portfolio_photos/chatAI_wwvak3.png',
     tech: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png',
       // 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
       'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000',
       'https://www.svgrepo.com/show/331488/mongodb.svg',
@@ -116,7 +116,7 @@ export const projects = [
     text: 'A movie search application that allows you to search by title and genre. Built with React, TypeScript and tanstack query. The states ares controlled with useContext and useReducer.',
     img: 'https://res.cloudinary.com/dlhsturyl/image/upload/w_800,f_auto/v1648059928/portfolio_photos/portfolio_netflix_clone_y4neh5.png',
     tech: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/100px-React.svg.png',
       'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
       'https://media.licdn.com/dms/image/v2/D5612AQGoJ0aEWZ6Nug/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1686052318378?e=2147483647&v=beta&t=R0XCFMzi0WzKfrb_4NFUNfiS-DjIHbHd2k6pCILXvUA',
     ],
