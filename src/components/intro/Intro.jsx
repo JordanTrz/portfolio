@@ -1,7 +1,7 @@
-import "./intro.scss";
-import DownloadIcon from "@mui/icons-material/Download";
-import { init } from "ityped";
-import { useEffect, useRef } from "react";
+import './intro.scss';
+import DownloadIcon from '@mui/icons-material/Download';
+import { init } from 'ityped';
+import { useEffect, useRef } from 'react';
 
 const Intro = () => {
   const textRef = useRef();
@@ -10,7 +10,7 @@ const Intro = () => {
     init(textRef.current, {
       backDelay: 1500,
       showCursor: true,
-      strings: ["Frontend", "Backend"],
+      strings: ['Frontend', 'Backend', 'Freelance'],
     });
   }, []);
 
@@ -18,11 +18,7 @@ const Intro = () => {
     <div className="intro" id="intro">
       <div className="top">
         <div className="imgContainer">
-          <img
-            // src="https://raw.githubusercontent.com/JordanTrz/myself/main/1516869724668.jpeg"
-            src="assets/character_JT.png"
-            alt=""
-          />
+          <img src="assets/character_JT.png" alt="myself" />
         </div>
       </div>
       <div className="bottom">
@@ -35,7 +31,7 @@ const Intro = () => {
           <div className="bottom__download">
             <div className="download__left">
               <a
-                href="https://drive.google.com/file/d/1cM0S-2Rd0_Ad12MwY2GXzQalnU1IuBo1/view?usp=sharing"
+                href="https://drive.google.com/file/d/1MSXoT2wJEi3wqp2OJIz3_bKcPI9NEeVy/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

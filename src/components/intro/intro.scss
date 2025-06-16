@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import '../../global.scss';
 
 .intro {
   background-color: white;
@@ -255,27 +255,6 @@
 
       @include mobile {
         width: 15%;
-      }
-    }
-
-    @keyframes arrowBlink {
-      100% {
-        opacity: 0.2;
-      }
-      80% {
-        opacity: 0.35;
-      }
-      60% {
-        opacity: 0.5;
-      }
-      40% {
-        opacity: 0.65;
-      }
-      20% {
-        opacity: 0.8;
-      }
-      0% {
-        opacity: 1;
       }
     }
   }
