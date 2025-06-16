@@ -1,22 +1,22 @@
-import "./portfolio.scss";
-import PortfolioList from "../portfolioList/PortfolioList";
-import { useState } from "react";
-import { frontEnd, backEnd, maquetaWeb } from "../../data";
+import './portfolio.scss';
+import PortfolioList from '../portfolioList/PortfolioList';
+import { useState } from 'react';
+import { frontEnd, backEnd, maquetaWeb, projects } from '../../data';
 
 const list = [
   {
-    id: "react",
-    title: "React",
+    id: 'react',
+    title: 'React',
     data: frontEnd,
   },
   {
-    id: "maqueta",
-    title: "Frontend template",
+    id: 'maqueta',
+    title: 'Frontend template',
     data: maquetaWeb,
   },
   {
-    id: "backend",
-    title: "Back-end",
+    id: 'backend',
+    title: 'Back-end',
     data: backEnd,
   },
 ];
@@ -30,7 +30,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       <h1>Projects</h1>
-      <ul>
+      {/* <ul>
         {list.map((item) => (
           <PortfolioList
             key={item.id}
@@ -40,14 +40,20 @@ const Portfolio = () => {
             setSelected={setSelected}
           />
         ))}
-      </ul>
+      </ul> */}
       <div className="container">
         <div className="containerWrapper">
-          {selectedData.map((d) => (
+          {/* {selectedData.map((d) => ( */}
+          {projects.map((d) => (
             <div className="item" key={d.id}>
               <img src={d.img} alt="#" />
               <div className="technologies">
                 <h3>{d.title}</h3>
+                {/* <div className="tech">
+                  {d.tech.map((tech, index) => (
+                    <img key={index} src={tech} alt="" />
+                  ))}
+                </div> */}
                 <div className="container_btn">
                   <a
                     className="btn left"

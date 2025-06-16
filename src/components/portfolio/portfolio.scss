@@ -1,4 +1,4 @@
-@import "../../global.scss";
+@import '../../global.scss';
 
 .portfolio {
   background-color: #bfbdbd;
@@ -89,7 +89,7 @@
           height: 100%;
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: space-evenly;
           align-items: center;
           opacity: 0;
           transition: all 0.2s ease-out;
@@ -99,9 +99,9 @@
           h3 {
             font-size: 20px;
 
-            @include mobile {
-              font-size: 15px;
-            }
+            // @include mobile {
+            //   font-size: 15px;
+            // }
 
             @include screenHD {
               font-size: 24px;
@@ -116,8 +116,8 @@
             padding: 5px;
 
             .btn {
-              width: 40px;
-              height: 30px;
+              width: 50px;
+              height: 40px;
               font-size: 20px;
               border: 1px solid white;
               border-radius: 8px;
@@ -125,16 +125,16 @@
               overflow: hidden;
               transition: all 0.2s ease-out;
 
-              @include mobile {
-                width: 30px;
-                height: 20px;
-                border-radius: 5px;
-              }
+              // @include mobile {
+              //   width: 30px;
+              //   height: 20px;
+              //   border-radius: 5px;
+              // }
 
-              @include screenHD {
-                width: 50px;
-                height: 40px;
-              }
+              // @include screenHD {
+              //   width: 50px;
+              //   height: 40px;
+              // }
 
               img {
                 width: 100%;
@@ -147,6 +147,30 @@
                 // box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
                 // -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
                 // -moz-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75);
+              }
+            }
+          }
+
+          .tech {
+            display: flex;
+            flex-direction: column;
+            // position: absolute;
+            bottom: 50px;
+
+            img {
+              width: 30px;
+              height: 30px;
+              object-fit: contain;
+              margin: 0 5px;
+
+              @include mobile {
+                width: 20px;
+                height: 20px;
+              }
+
+              @include screenHD {
+                width: 40px;
+                height: 40px;
               }
             }
           }
