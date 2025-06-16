@@ -102,7 +102,10 @@ export const projects = [
     img: 'https://res.cloudinary.com/dlhsturyl/image/upload/v1648058520/portfolio_photos/portfolio_shopping_yyegit.png',
     tech: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
+      // 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
+      'https://user-images.githubusercontent.com/46530103/149555472-2e2ed369-9011-496e-9fe5-69facdf534e8.png',
       'https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg',
+      'https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg',
     ],
     demo: 'https://ptfl-shop.vercel.app/',
     repo: 'https://github.com/JordanTrz/chatGPT-clone',
@@ -114,6 +117,7 @@ export const projects = [
     tech: [
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
       'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',
+      'https://images.seeklogo.com/logo-png/43/1/react-query-logo-png_seeklogo-435661.png',
     ],
     demo: 'https://buscador-peliculas-bay.vercel.app',
     repo: 'https://github.com/JordanTrz/buscador_peliculas',

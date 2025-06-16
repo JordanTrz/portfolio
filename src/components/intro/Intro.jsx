@@ -10,7 +10,7 @@ const Intro = () => {
     init(textRef.current, {
       backDelay: 1500,
       showCursor: true,
-      strings: ['Frontend', 'Backend'],
+      strings: ['Frontend', 'Backend', 'Freelance'],
     });
   }, []);
 
