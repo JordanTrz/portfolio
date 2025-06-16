@@ -1,7 +1,7 @@
 import './card.scss';
 
 const Card = ({ project }) => {
-  const { id, title, img, demo, repo, tech } = project;
+  const { id, title, text, img, demo, repo, tech } = project;
   return (
     <div className="project" key={id}>
       <h3 className="project_title">{title}</h3>
@@ -13,7 +13,8 @@ const Card = ({ project }) => {
       </div>
       <div className="project_info">
         <h3>{title}</h3>
-        <div className="project_body">
+        <p className="project_text">{text}</p>
+        <div className="project_buttons">
           <a
             className="btn left"
             target="_blank"
